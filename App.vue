@@ -1,5 +1,3 @@
-
-
 <template>
   <html lang="fr" dir="ltr">
     <head>
@@ -42,6 +40,7 @@
           <p>{{message}} <span v-if="this.normal && this.majeur && this.extreme"></span><span v-else>{{competance}}%</span></p>
         </article>
       </section>
+      <h4 v-on:click="ok = true">Trouver la règle ?<span v-if="ok"><a href=" https://www.drivethrurpg.com/product/329795/LAppel-de-Cthulhu--Manuel-du-Gardien">Lien vers DriveThruRPG</a></span></h4>
     </body>
   </html>
 </template>
@@ -58,7 +57,8 @@ export default {
       majeur: true,
       extreme: true,
       bonus: false,
-      malus: false
+      malus: false,
+      ok: false
     }
   },
   methods: {
@@ -224,7 +224,7 @@ h1 {
 .sous_titre {
   margin-top: 0em;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 .centre {
   text-align: center;
@@ -319,5 +319,12 @@ h1 {
     margin-left: 0%;
     width: 100%;
   }
+}
+/*==Lien==*/
+a {
+  color: black;
+}
+a:hover {
+  color: #00b914;
 }
 </style>
