@@ -179,7 +179,7 @@ export default {
 
 body {
   background-color: #1B3A4B;
-  color: black;
+  color: #ddfff6;
   max-height: 100%;
 }
 /*==Les boites==*/
@@ -229,7 +229,7 @@ h1 {
 .centre {
   text-align: center;
   font-size: 1em;
-  color: black;
+  color: #ddfff6;
   height: 25%;
 }
 .size {
@@ -254,7 +254,7 @@ h1 {
   border: 3px solid black;
   font-size: 1em;
   margin-bottom: 1em;
-  color: black;
+  color: #ddfff6;
 }
 .no {
   text-decoration: line-through;
@@ -265,7 +265,7 @@ h1 {
   font-size: 1em;
   height: 5em;
   width: 5em;
-  color: black;
+  color: #ddfff6;
   display:block;
   text-decoration:none;
   margin:5px auto;
@@ -322,7 +322,7 @@ h1 {
 }
 /*==Lien==*/
 a {
-  color: black;
+  color: #ddfff6;
 }
 a:hover {
   color: #00b914;
